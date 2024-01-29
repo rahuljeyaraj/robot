@@ -1,5 +1,13 @@
 #include <something.h>
 
-void main (){
+fwd();
+bwd();
+left();
+right();
+stop();
 
+void main (){
+  fwd();
+  delay();
+  stop();
 }
