@@ -1,8 +1,13 @@
 #include <something.h>
 
 void main (){
-  led = sensor_read();
-  fwd();
-  delay();
-  stop();
+  while(1){
+    val = sensor_read();
+    if(val == xy)
+      left();
+    else if ()
+      right();
+    else
+      fwd();
+  }
 }
