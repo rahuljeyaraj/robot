@@ -1,6 +1,7 @@
 #include <something.h>
 
 void main (){
+  arm_init();
   lcd_int();
   sensor_calib();
   lcd_print("sensor calib done");
